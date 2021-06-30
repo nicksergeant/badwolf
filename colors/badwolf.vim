@@ -512,11 +512,6 @@ call s:HL('htmlTagName',        'coffee', '', 'bold')
 call s:HL('htmlSpecialTagName', 'coffee', '', 'bold')
 call s:HL('htmlSpecialChar',    'lime',   '', 'none')
 
-" Tree-sitter JSX
-" https://github.com/nvim-treesitter/nvim-treesitter/blob/master/doc/nvim-treesitter.txt
-call s:HL('TSConstructor', 'orange', '', 'none')
-call s:HL('TSProperty', 'dress', '', 'none')
-
 " Attributes
 call s:HL('htmlArg', 'coffee', '', 'none')
 
@@ -536,6 +531,14 @@ call s:HL('javaScopeDecl', 'taffy', '', 'bold')
 call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'snow', '', 'none')
 call s:HL('javaDocParam', 'dalespale', '', '')
+
+" }}}
+" JavaScript {{{
+
+" Tree-sitter JSX
+" https://github.com/nvim-treesitter/nvim-treesitter/blob/master/doc/nvim-treesitter.txt
+call s:HL('TSConstructor', 'orange', '', 'none')
+call s:HL('TSProperty', 'dress', '', 'none')
 
 " }}}
 " LaTeX {{{
